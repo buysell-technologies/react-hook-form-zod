@@ -5,7 +5,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist/**"],
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-hook-form": "^7.42.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
