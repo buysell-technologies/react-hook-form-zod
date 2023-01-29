@@ -1,24 +1,22 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@hookform/resolvers': ^2.9.10
+  '@hookform/resolvers': ^2.0.0
   '@types/react': ^18.0.27
-  react: ^18.2.0
-  react-hook-form: ^7.42.1
+  react: ^18.0.0
+  react-hook-form: ^7.0.0
   tsup: ^6.5.0
   typescript: ^4.9.4
-  zod: ^3.20.2
-
-dependencies:
-  '@hookform/resolvers': 2.9.10_react-hook-form@7.42.1
-  react: 18.2.0
-  react-hook-form: 7.42.1_react@18.2.0
-  zod: 3.20.2
+  zod: ^3.0.0
 
 devDependencies:
+  '@hookform/resolvers': 2.9.10_react-hook-form@7.42.1
   '@types/react': 18.0.27
+  react: 18.2.0
+  react-hook-form: 7.42.1_react@18.2.0
   tsup: 6.5.0_typescript@4.9.4
   typescript: 4.9.4
+  zod: 3.20.2
 
 packages:
 
@@ -46,7 +44,7 @@ packages:
       react-hook-form: ^7.0.0
     dependencies:
       react-hook-form: 7.42.1_react@18.2.0
-    dev: false
+    dev: true
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -553,7 +551,7 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: false
+    dev: true
 
   /lilconfig/2.0.6:
     resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
@@ -578,7 +576,7 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
-    dev: false
+    dev: true
 
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
@@ -707,14 +705,14 @@ packages:
       react: ^16.8.0 || ^17 || ^18
     dependencies:
       react: 18.2.0
-    dev: false
+    dev: true
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
+    dev: true
 
   /readdirp/3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
@@ -901,4 +899,4 @@ packages:
 
   /zod/3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
-    dev: false
+    dev: true
